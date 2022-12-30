@@ -30,3 +30,17 @@ That's it! We've managed to compile down to `wasm` and it can now run on a varie
 `tinygo` isn't perfect though, and many libraries aren't supported, including no support for `http` as it is not yet part of the `wasm` spec. 
 
 I think `tinygo` and `wasm` formats would be a massive boon to `tinyml`, where we want to provide a small simple model and expose it to the outside world
+
+### Other Notes
+To install `tinygo` it is fairly straightforward on Windows and macOS
+
+```
+# windows
+scoop install go
+scoop install tinygo
+
+# macos
+brew tap tinygo-org/tools
+brew install tinygo
+```
+
