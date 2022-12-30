@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is it. Is it possible to do development work on a ~14 year old laptop? Let's take a stab. 
+This is it.
 
 My setup - as of Jan 2023:
 - Hardware: Sony Vaio SR series (2008)
