@@ -11,6 +11,7 @@ My setup - as of Jan 2023:
 - OS: Windows 10
 - IDE: [micro editor](https://micro-editor.github.io/)
 * Default theme: [Dracula](https://draculatheme.com/) for almost everything!
+* Note taking: [Obsidian](https://obsidian.md/)
 
 Future setup:
 - OS: [KDE Neon](https://neon.kde.org/)
