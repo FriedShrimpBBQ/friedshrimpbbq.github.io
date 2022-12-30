@@ -38,9 +38,12 @@ To install `tinygo` it is fairly straightforward on Windows and macOS
 # windows
 scoop install go
 scoop install tinygo
+scoop install binaryen
+scoop install wasmer
 
 # macos
 brew tap tinygo-org/tools
 brew install tinygo
+brew install wasmer
 ```
 
