@@ -28,10 +28,8 @@ github_username:  FriedShrimpBBQ
 
 # Build settings
 theme: minima
-remote_theme: "dracula/gh-pages"
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
