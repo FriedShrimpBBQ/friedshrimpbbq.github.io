@@ -106,3 +106,10 @@ If it didn't work, check that your folder structure resembles the below:
 ```
 
 Good luck and happy coding.
+
+**Limitations and Thoughts**
+
+CosmWasm/tinyjson does indeed work if you limit yourself to `int` and don't use floats. An alternative is to use `easyjson` and just "live" with `tinygo` not running, though WASM works fine. This is a bit of a weird one, as its clearly a bug not a feature. 
+
+Someone on twitter pointed out that I could also try: https://github.com/valyala/fastjson
+
