@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lessons Learned Upgrading scikit-learn to 1.X"
-date:   2023-01-07
+date:   2023-01-06
 categories: python machine-learning scikit-learn numpy pandas
 ---
 
