@@ -7,7 +7,7 @@ permalink: /about/
 This is it.
 
 My setup - as of Jan 2023:
-- Hardware: Sony Vaio SR series (2008)
+- Hardware: Sony Vaio SR series (2008) - yes, a 15 year old notebook
 - OS: Windows 10
 - IDE: [micro editor](https://micro-editor.github.io/) and [Notepad++](https://notepad-plus-plus.org/)
 * Default theme: [Dracula](https://draculatheme.com/) for almost everything!
