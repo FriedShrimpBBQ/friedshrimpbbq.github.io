@@ -29,9 +29,9 @@ np.mean([model.predict(X) for model in models])
  What's going on here?
  
  1. We train the model based on weights of the observation (higher weights of previous model got the prediction wrong, lower weight if the previous model got it correct)
- 2. At each step we augment the weights by a fixed pre-known penalty, by $\alpha$ for correct predictions and $\frac{1}{\alpha}$ for incorrect predictions.
+ 2. At each step we augment the weights by a fixed pre-known penalty, by `alpha` for correct predictions and `1/alpha` for incorrect predictions.
  3. For prediction, simply take the average
  
- This works in the gentle boosting framework by using newton steps to update the weights of the model. By having fixed step sizes for updating the weights it ensures that the weights are bounded and outliers won't over-weigh the model. The original formulation uses scaling in the form of $e^1$, based on the expoential objective function. In the above formation the scaling is a parameter of the model. This can be interpretted as a modified objective variation to gentle boost instead.
+ This works in the gentle boosting framework by using newton steps to update the weights of the model. By having fixed step sizes for updating the weights it ensures that the weights are bounded and outliers won't over-weigh the model. The original formulation uses scaling in the form of `alpha = exp(1)`, based on the expoential objective function. In the above formation the scaling is a parameter of the model. This can be interpretted as a modified objective variation to gentle boost instead.
  
  I think this variation is very simple to understand and implement whilst still being somewhat more effective than not using boosting at all. 
