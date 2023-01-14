@@ -5,7 +5,8 @@ date:   2023-01-06
 categories: machine-learning paper research
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 Often in academic literature, boosting is introduced through [AdaBoost](https://en.wikipedia.org/wiki/AdaBoost) or maybe sometimes they jump straight into [Gradient Boosting](https://en.wikipedia.org/wiki/Gradient_boosting). In this post, I thought I'll introduce it in a different way, using "Gentle Boosting", which is far easier to implement and understand. 
 
