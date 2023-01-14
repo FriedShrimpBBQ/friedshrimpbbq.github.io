@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "A Gentle guide to Boosting"
-date:   2023-01-06
+date:   2023-01-13
 categories: machine-learning paper research
 ---
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 Often in academic literature, boosting is introduced through [AdaBoost](https://en.wikipedia.org/wiki/AdaBoost) or maybe sometimes they jump straight into [Gradient Boosting](https://en.wikipedia.org/wiki/Gradient_boosting). In this post, I thought I'll introduce it in a different way, using "Gentle Boosting", which is far easier to implement and understand. 
 
