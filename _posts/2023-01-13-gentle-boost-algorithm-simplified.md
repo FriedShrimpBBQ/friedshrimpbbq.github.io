@@ -5,8 +5,6 @@ date:   2023-01-13
 categories: machine-learning paper research
 ---
 
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
-
 Often in academic literature, boosting is introduced through [AdaBoost](https://en.wikipedia.org/wiki/AdaBoost) or maybe sometimes they jump straight into [Gradient Boosting](https://en.wikipedia.org/wiki/Gradient_boosting). In this post, I thought I'll introduce it in a different way, using "Gentle Boosting", which is far easier to implement and understand. 
 
 In Python-esque code, Gentle Boost is implemented as follows:
