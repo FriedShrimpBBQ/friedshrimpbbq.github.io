@@ -27,4 +27,4 @@ Another big reason for Mithril is not having to deal with HTML templates at all.
 
 ## On Bulma
 
-I didn't have a strong reason to use Bulma, one reason was it seemed fairly complete as a CSS framework and was not bootstrap. 
+I didn't have a strong reason to use Bulma, one reason was it seemed fairly complete as a CSS framework and was not bootstrap. Perhaps one day I'll explore Tailwind or Materialize. At this point in time, this fits in the "good enough" category for my needs.
