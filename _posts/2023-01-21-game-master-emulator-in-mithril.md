@@ -19,3 +19,12 @@ Openmoji, despite its whimsical and sometimes inconsistent theming, was amazing 
 
 Despite saying I'll use a GUI framework for Go, I might stick with using Go WASM with Mithril and Bulma in future projects. Using Go as a "backend" and Mithril as front-end separation gives me a lot of freedom and more importantly speed to work through ideas and deploy quickly. 
 
+## On Mithril
+
+I think Mithril plays in very much the same space as Vue - something that can modify the DOM dynamically purely on the client-side. For whatever reason, I've been more drawn to Mithril, since its composability seems more _natural_ to me at least. This is probably partially because running things like npm is horrible on my laptop and internet connection (I generally try to work offline), and it just means I have to revert to _simplier_ setups. In the future, I may look into other workflows in the web development space, as it is essential to Web3, however at this stage, I'm going to stick with "what works for me". 
+
+Another big reason for Mithril is not having to deal with HTML templates at all. For a solo developer that is an amazing experience as you often don't need the complexity, however I completely understand when working in a team environment why that separation may be worthwhile and useful depending on various team members roles and responsibilities. 
+
+## On Bulma
+
+I didn't have a strong reason to use Bulma, one reason was it seemed fairly complete as a CSS framework and was not bootstrap. 
